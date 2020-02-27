@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Ph.D. candidate in the department of Mechanical Engineering at Stanford University. I work in Professor Parviz Moin's group as part of the Center for Turbulence Research. My interests include wall-modeled large-eddy simulations (WMLES), numerical methods development, and hypersonics.
+I'm a Ph.D. candidate in the department of Mechanical Engineering at Stanford University. I work in Professor Parviz Moin's group as part of the Center for Turbulence Research. My research interests include wall-modeled large-eddy simulations (WMLES), numerical methods development, and hypersonics.
 
 
 
