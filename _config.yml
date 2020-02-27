@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Carlos A. Gonzalez"
 title_separator          : "-"
 name                     : &name "Carlos A. Gonzalez"
-description              : &description "I am a Ph.D. student in Professor Parviz Moin's group at Stanford's Center for Turbulence Research. My research interests include wall-modeled large-eddy simulations (WMLES), numerical methods development, and hypersonics."
+description              : &description "Description here"
 url                      : https://cagonzal.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "cagonzal.github.io"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/carlos-gonzalez-183b31105/"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
