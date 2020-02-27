@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Mechanical Engineering, Caltech, 2017
+* M.S. in Mechanical Engineering, Stanford University, 2020
+* Ph.D in Computational Fluid Dynamics, Stanford University, 2023 (expected)
 
 Work experience
 ======
