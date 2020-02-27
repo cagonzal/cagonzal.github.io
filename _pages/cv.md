@@ -29,12 +29,19 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
+* Computational Fluid Dynamics
+  * LES
+  * WMLES
+  * Hypersonic flows
+* Numerical methods
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
+* Programming
+  * MATLAB
+  * Python
+  * C++
+  * Mathematica
 
 Publications
 ======
@@ -54,6 +61,7 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Outreach
 ======
-* Currently signed in to 43 different slack teams
+* Involved in a mentorship program at Stanford's El Centro Chicano y Latino
+* Financial officer for seeME, an outreach organization in Stanford's Mechanical Engineering Department that aims to introduce engineering to local underrepresented middle school and high school students.
