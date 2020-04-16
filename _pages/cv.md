@@ -43,7 +43,10 @@ Skills
   * Python
   * C++
   * Mathematica
-
+* Linux
+  * Shell Scripting
+  * High-Performance Computation
+  * Slurm
   
 Teaching
 ======
