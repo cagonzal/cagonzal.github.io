@@ -10,3 +10,4 @@ Ornstein-Uhlenbeck processes are used in the context of the Langevin equations t
 
 <br/><img src='/images/stochastic_project/ugrad_1000P_trajectories.png'>
 <br/><img src='/images/stochastic_project/homogenous_shear_result.png'>
+<br/><img src='/images/stochastic_project/meanCcomp.png'>
