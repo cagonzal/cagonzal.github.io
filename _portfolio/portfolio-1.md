@@ -1,6 +1,6 @@
 ---
 title: "Investigation of Stochastic Models for Particle Dispersion"
-excerpt: "Final project for ME461 (Advanced Topics in Turbulence)"
+excerpt: "Final Project for ME469 (Computational Methods in Fluid Dynamics)"
 collection: portfolio
 ---
 
