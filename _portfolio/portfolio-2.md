@@ -9,5 +9,5 @@ This project follows the work of Paul Durbin from his paper <em>[A stochastic mo
 Ornstein-Uhlenbeck processes are used in the context of the Langevin equations to model fluid parcel velocities as stochastic processes. By tracking particles, we can compute turbulent statistics of the flow. 
 
 <br/><img src='/images/stochastic_project/ugrad_1000P_trajectories.png'>
-<br/><img src='/images/stochastic_project/homogenous_shear_result.png'>
+<br/><img src='/images/stochastic_project/homogenous_shear_result4000.png'>
 <br/><img src='/images/stochastic_project/meanCcomp.png'>
