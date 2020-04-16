@@ -5,3 +5,5 @@ collection: portfolio
 ---
 
 Velocity Streamlines
+
+This project was done in a collaboration with Kimberly Liu, a peer in the class. We examined (insert paper ref) to study the effects of conductive walls in laminar pipe flow through a ribbed channel. Simulations were done using Nalu, an unstructured research code developed at Sandia Labs. 
