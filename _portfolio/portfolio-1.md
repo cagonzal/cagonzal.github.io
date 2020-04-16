@@ -1,5 +1,5 @@
 ---
-title: "Investigation of Stochastic Models for Particle Dispersion"
+title: "Conjugate Heat Transfer in a Ribbed Channel"
 excerpt: "Final Project for ME469 (Computational Methods in Fluid Dynamics)"
 collection: portfolio
 ---
