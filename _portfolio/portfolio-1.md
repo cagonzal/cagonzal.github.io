@@ -1,6 +1,10 @@
 ---
 title: "Conjugate Heat Transfer of a Ribbed Channel"
+<<<<<<< HEAD
 excerpt: "Final project for ME469 (Computational Methods in Fluid Mechanics), an advanced CFD class at Stanford University.
+=======
+excerpt: "Final project for ME461 (Computational Methods in Fluid Mechanics), an advanced CFD class at Stanford University.  <br/><img src='/images/conj_channel/pv_streamlines.png'>"
+>>>>>>> parent of 0619c50... added stochastic project
 collection: portfolio
 ---
 
