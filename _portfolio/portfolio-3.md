@@ -17,6 +17,12 @@ This project was done in a collaboration with my classmate, Michael Whitmore. A 
 
 <div class="row">
 	<div class="column">
+		<img src='/images/me344/phi_iso_39000.png' style="width=200">
+	</div>
+</div>
+
+<div class="row">
+	<div class="column">
 		<img src='/images/me344/strong_scaling.png' style="width=200">
 	</div>
 	<div class="column">
