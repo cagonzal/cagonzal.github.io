@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Computational Fluid Dynamics, Stanford University, 2023 (expected)
+* Ph.D in Computational Fluid Dynamics, Stanford University, 2024 (expected)
 * M.S. in Mechanical Engineering, Stanford University, 2020
 * B.S. in Mechanical Engineering, Caltech, 2017
 
@@ -36,13 +36,14 @@ Skills
 * Computational Fluid Dynamics
   * LES
   * WMLES
-  * Hypersonic flows
+  * Transition modeling
 * Numerical methods
 * Programming
-  * MATLAB
   * Python
+  * MATLAB
   * C++
   * Mathematica
+  * Julia
 * Linux
   * Shell Scripting
   * High-Performance Computation
@@ -56,5 +57,5 @@ Teaching
   
 Outreach
 ======
-* Involved in a mentorship program at Stanford's El Centro Chicano y Latino
 * Financial officer for seeME, an outreach organization in Stanford's Mechanical Engineering Department that aims to introduce engineering to local underrepresented middle school and high school students.
+* Involved in a mentorship program at Stanford's El Centro Chicano y Latino
