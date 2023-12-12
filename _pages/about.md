@@ -8,6 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Ph.D. candidate in the deparment of Mechanical Engineering at Stanford. My research interests are in wall-modeled large-eddy simulations (WMLES), turbulence, wall model development, and hypersonics. My work is done in Professor Parviz Moin's group at the Center for Turbulence Research.
+I'm a Ph.D. candidate in the deparment of Mechanical Engineering at Stanford. My research is in the development transition models to be used in wall-modeled large-eddy simulations. In particular, I work focuses on the use of the parabolized stability equations as a physics-based approach to model modal transition processes. My work is done in Professor Parviz Moin's group at the Center for Turbulence Research.
 
-Apart from research, I love basketball (playing and watching), video games, and cooking. I'm also involved in several outreach programs. Check out [SeeME](http://seeme.stanford.edu/) and [Frosh Scholars](https://elcentro.stanford.edu/programs/academic-programs/frosh-scholars-program) if you want to learn more!
+Apart from research, I'm an avid rock climber. Castle Rock state park is my home crag, but I've been fortunate enough to climb at many other crags in California and beyond. Basketball, video games, and cooking are my other main hobbies. I'm also involved in a couple of outreach programs at Stanford. Check out [SeeME](http://seeme.stanford.edu/) and [Frosh Scholars](https://elcentro.stanford.edu/programs/academic-programs/frosh-scholars-program) if you want to learn more!
