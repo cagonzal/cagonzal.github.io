@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research"
+title: ""
 permalink: /research/
 author_profile: true
 redirect_from:
@@ -21,14 +21,26 @@ My research tackles this problem by using the Falkner-Skan similarity solution a
 Reports
 ===
 
-http://web.stanford.edu/group/ctr/ResBriefs/2020/10_Gonzalez.pdf
+[Wall-stress modeling for laminar boundary layers
+in coarse grids](http://web.stanford.edu/group/ctr/ResBriefs/2020/10_Gonzalez.pdf)
 
-http://web.stanford.edu/group/ctr/ResBriefs/2021/08_Gonzalez.pdf
+[Falkner-Skan wall model baseflow generation for
+the parabolized stability equations]
+(http://web.stanford.edu/group/ctr/ResBriefs/2021/08_Gonzalez.pdf)
 
-https://web.stanford.edu/group/ctr/ctrsp22/vi02_Broeck.pdf
+[Temporal stability analysis of high Mach number
+boundary layers over cooled impedance walls](https://web.stanford.edu/group/ctr/ctrsp22/vi02_Broeck.pdf)
 
 
 Presentations
 ===
 
-APS DFD 2023
+Gonzalez, C., Harris, S., & Moin, P. (2023). Simulating an H-type transitional boundary layer in a coupled NLPSE and WMLES framework with a Falkner-Skan wall model. Bulletin of the American Physical Society.
+
+Gonzalez, C., & Moin, P. (2022). Falkner-Skan wall model for laminar boundary layers. Bulletin of the American Physical Society.
+
+De Broeck, L., Goertz, S., Flint, T., Gonzalez, C., Oberlack, M., & Lele, S. (2022). Suppression of acoustic instabilities in boundary layer flows by heating/cooling of the wall and wall impedance. Bulletin of the American Physical Society.
+
+Gonzalez, C., Karp, M., Harris, S., & Moin, P. (2021). Reduced-order Modeling of Laminar Boundary Layers. Bulletin of the American Physical Society.
+
+Gonzalez, C., Karp, M., & Moin, P. (2020). Wall-stress Modeling for Laminar Boundary Layers. Bulletin of the American Physical Society.
