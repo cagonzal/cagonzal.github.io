@@ -25,8 +25,7 @@ Reports
 in coarse grids](http://web.stanford.edu/group/ctr/ResBriefs/2020/10_Gonzalez.pdf)
 
 [Falkner-Skan wall model baseflow generation for
-the parabolized stability equations]
-(http://web.stanford.edu/group/ctr/ResBriefs/2021/08_Gonzalez.pdf)
+the parabolized stability equations](http://web.stanford.edu/group/ctr/ResBriefs/2021/08_Gonzalez.pdf)
 
 [Temporal stability analysis of high Mach number
 boundary layers over cooled impedance walls](https://web.stanford.edu/group/ctr/ctrsp22/vi02_Broeck.pdf)
