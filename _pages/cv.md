@@ -21,6 +21,10 @@ Work experience
   * Stanford University
   * Adviser: Parviz Moin
 
+* June 2021 - August 2021: Hardware Research and Technology Intern
+  * Palo Alto Research Center (PARC)
+  * Magnetohydrodynamic simulations in OpenFOAM and COMSOL for the development of new liquid metal 3D printing technolgy. 
+
 * Summer 2016: Summer Undergraduate Research Assistant
   * Caltech
   * Implementing 2D finite volume code for heat transfer calculations
