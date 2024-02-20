@@ -18,7 +18,7 @@ Direct numerical simulation (DNS) and wall-resolved large-eddy simulations (WRLE
 
 My research tackles this problem by using the Falkner-Skan similarity solution as a wall model that is applicable in the laminar portion of flows. Additionally, my research leverages the parabolized stability equations to act as a physics-based, but computationally inexpensive, method to model the transitional portion of wall-bounded flows. 
 
-![](../images/isoq_petty.mp4)
+![H-type transitional boundary layer](/images/isoq_petty.mp4)
 
 Reports
 ===
