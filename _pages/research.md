@@ -16,7 +16,7 @@ Modeling the transition from laminar to turbulent flow remains a significant cha
 
 Direct numerical simulation (DNS) and wall-resolved large-eddy simulations (WRLES) are scale resolving simulation techniques, that unfortunately, are too computationally expensive for engineering flows of interest at realistic Reynolds numbers. Wall-modeled LES (WMLES) offer significant computational savings by modeling the near wall region of turbulent flows, however, investigations at the Center for Turbulence research has shown that state-of-the-art techniques are not suitable for the simulation of transitional flows. 
 
-My research tackles this problem by using the Falkner-Skan similarity solution as a wall model that is applicable in the laminar portion of flows. Additionally, my research leverages the parabolized stability equations to act as a physics-based, but computationally inexpensive, method to model the transitional portion of wall-bounded flows. 
+My research tackles this problem by using the Falkner-Skan similarity solution as a wall model that is applicable in the laminar portion of flows. Additionally, my research leverages the parabolized stability equations to act as a physics-based, but computationally inexpensive, method to model the transitional portion of wall-bounded flows. Below are contours of near-wall spanwise velocity for three transition scenarios considered in my research. 
 
 <br/><img src='/images/w_oblique.wrles.png'>
 
