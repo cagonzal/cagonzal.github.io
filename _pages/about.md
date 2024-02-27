@@ -12,5 +12,5 @@ I'm a Ph.D. candidate in the deparment of Mechanical Engineering at Stanford. My
 
 Apart from research, I'm an avid rock climber. Castle Rock state park is my home crag, but I've been able to explore other crags in California and the west coast in general. Basketball, video games, and cooking are my other main hobbies. I'm also involved in a couple of outreach programs at Stanford. Check out [SeeME](http://seeme.stanford.edu/) and [Frosh Scholars](https://elcentro.stanford.edu/undergraduate-student-programs/james-m-montoya-frosh-transfer-scholars-program) if you want to learn more!
 
-!['/images/crystal_crag_summit.jpg']
+![]('/images/crystal_crag_summit.jpg')
 *Class 4 traverse at the summit of the North Arete at the Crystal Crag in Mammoth California.*
