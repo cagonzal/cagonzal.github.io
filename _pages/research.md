@@ -22,7 +22,7 @@ My research tackles this problem by using the Falkner-Skan similarity solution a
 
 <br/><img src='/images/w_ktype_wrles.png'>
 
-<br/><img src='/images/htype_u_contour.pdf'>
+<br/> <embed src='/images/htype_u_contour.pdf' width="2100px" height="280px" />
 
 Reports
 ===
