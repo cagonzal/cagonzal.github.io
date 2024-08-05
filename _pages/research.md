@@ -20,9 +20,9 @@ My research tackles this problem by using the Falkner-Skan similarity solution a
 
 <br/><img src='/images/w_oblique.wrles.png'>
 
-<br/><img src='/images/w_ktype_wrles.png'>
+<br/><img src='/images/ktype_extended_u_contour.png'>
 
-<br/><img src='/images/htype_u_contour.png'>
+<br/><img src='/images/htype_extended_u_contour.png'>
 
 Reports
 ===
