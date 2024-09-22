@@ -2,96 +2,77 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Carlos A. Gonzalez
+    # - name: Date of Birth
+      # value: 14th March 1879
+    - name: email
+      value: cagonzal@stanford.edu
     - name: Languages
-      value: English, German
+      value: English, Spanish
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Ph.D. Mechanical Engineering
+      institution: Stanford University
+      year: 2020 - Present
+      # description:
+        # - Description 1.
+        # - Description 2.
+        # - title: Description 3.
+          # contents:
+            # - Sub-description 1.
+            # - Sub-description 2.
+    - title: M.S. Mechanical Engineering
+      institution: Stanford University
+      year: 2018 - 2020
+      # description:
+    - title: B.S. Mechanical Engineering
+      institution: California Institute of Technology 
+      year: 2013 - 2017
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant
+      institution: Stanford University
+      year: 2018 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - |
+          Advisor: Professor Parviz Moin
+        - Large-eddy simulation of laminar and transitional flows
+        - Development of the Falkner-Skan wall model for laminar flows
+        - Coupling the nonlinear Parabolized Stability Equations with large-eddy simulation
+        - High performance computing with simulations deployed on Frontier and Summit
+    - title: Research Intern
+      institution: Palo Alto Research Center (PARC)
+      year: June - September 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Theoretical and simulation based analyses for new liquid-metal 3D printing technology
+        - Multiphase simulations for liquid metal inkjet prototype using COMSOL
+        - Developed a custom OpenFOAM solver for magnetohydrodynamic simulations
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Gonzalez, C.A., Harris, S.R., & Moin, P. (2023). “Simulating an H-type transitional boundary layer in a coupled NLPSE and WMLES framework with a Falkner-Skan wall model,” Center for Turbulence Research, Annual Research Briefs, 2023.
+    - title: De Broeck, L., Gortz, S., Flint, T., Gonzalez, C.A., Lele, S.K., & Oberlack, M. (2022). “Suppression of acoustic instabilities in boundary layer flows,” Center for Turbulence Research, Proceedings of the Summer Program, 2022.
+    - title: Gonzalez, C.A., Harris, S.R., & Moin, P. (2021). “Falkner-Skan wall model baseflow generation for the parabolized stability equations,” Center for Turbulence Research, Annual Research Briefs, 2021.
+    - title: Gonzalez, C.A., Karp, M., & Moin, P. (2020). “Wall-stress modeling for laminar boundary layers in coarse grids,” Center for Turbulence Research, Annual Research Briefs, 2020.
 
-- title: Honors and Awards
+- title: Service
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: SeeME
+      year: 2018-2024
+      description: 
+        - Treasurer 
+        - Official Stanford Mechanical Engineering Department outreach club 
+        - The objective of SeeME is to bring mechanical engineeiring outreach to underserved communities in the Bay Area.
+        - https://seeme.stanford.edu/
+    - title: El Centro Chicano y Latino
+      year: 2018 - 2020
+      description:
+        - Served as a mentor to first year undergraduate Hispanic students
+    
