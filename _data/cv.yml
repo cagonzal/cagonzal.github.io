@@ -46,7 +46,7 @@
         - High performance computing with simulations deployed on Frontier and Summit
     - title: Research Intern
       institution: Palo Alto Research Center (PARC)
-      year: June - September 2021
+      year: Summer 2021
       description:
         - Theoretical and simulation based analyses for new liquid-metal 3D printing technology
         - Multiphase simulations for liquid metal inkjet prototype using COMSOL
@@ -54,12 +54,12 @@
 
 
 - title: Publications
-  type: time_table
+  type: list
   contents:
-    - title: Gonzalez, C.A., Harris, S.R., & Moin, P. (2023). “Simulating an H-type transitional boundary layer in a coupled NLPSE and WMLES framework with a Falkner-Skan wall model,” Center for Turbulence Research, Annual Research Briefs, 2023.
-    - title: De Broeck, L., Gortz, S., Flint, T., Gonzalez, C.A., Lele, S.K., & Oberlack, M. (2022). “Suppression of acoustic instabilities in boundary layer flows,” Center for Turbulence Research, Proceedings of the Summer Program, 2022.
-    - title: Gonzalez, C.A., Harris, S.R., & Moin, P. (2021). “Falkner-Skan wall model baseflow generation for the parabolized stability equations,” Center for Turbulence Research, Annual Research Briefs, 2021.
-    - title: Gonzalez, C.A., Karp, M., & Moin, P. (2020). “Wall-stress modeling for laminar boundary layers in coarse grids,” Center for Turbulence Research, Annual Research Briefs, 2020.
+    - Gonzalez, C.A., Harris, S.R., & Moin, P. (2023). “Simulating an H-type transitional boundary layer in a coupled NLPSE and WMLES framework with a Falkner-Skan wall model,” Center for Turbulence Research, Annual Research Briefs, 2023.
+    - De Broeck, L., Gortz, S., Flint, T., Gonzalez, C.A., Lele, S.K., & Oberlack, M. (2022). “Suppression of acoustic instabilities in boundary layer flows,” Center for Turbulence Research, Proceedings of the Summer Program, 2022.
+    - Gonzalez, C.A., Harris, S.R., & Moin, P. (2021). “Falkner-Skan wall model baseflow generation for the parabolized stability equations,” Center for Turbulence Research, Annual Research Briefs, 2021.
+    - Gonzalez, C.A., Karp, M., & Moin, P. (2020). “Wall-stress modeling for laminar boundary layers in coarse grids,” Center for Turbulence Research, Annual Research Briefs, 2020.
 
 - title: Teaching Experience
   type: time_table
