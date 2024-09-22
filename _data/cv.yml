@@ -61,6 +61,26 @@
     - title: Gonzalez, C.A., Harris, S.R., & Moin, P. (2021). “Falkner-Skan wall model baseflow generation for the parabolized stability equations,” Center for Turbulence Research, Annual Research Briefs, 2021.
     - title: Gonzalez, C.A., Karp, M., & Moin, P. (2020). “Wall-stress modeling for laminar boundary layers in coarse grids,” Center for Turbulence Research, Annual Research Briefs, 2020.
 
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Linear Algebra with Application to Engineering Computation
+      institution: Stanford University 
+      year: 2019, 2022
+      description: Computer based solution of systems of algebraic equations obtained from engineering problems and eigen-system analysis, Gaussian elimination, effect of round-off error, operation counts, banded matrices arising from discretization of differential equations, ill-conditioned matrices, matrix theory, least square solution of unsolvable systems, solution of non-linear algebraic equations, eigenvalues and eigenvectors, similar matrices, unitary and Hermitian matrices, positive definiteness, Cayley-Hamilton theory and function of a matrix and iterative methods.
+    - title: Introduction to Numerical Methods for Engineering
+      institution: Stanford University 
+      year: 2021
+      description: Numerical methods from a user's point of view. Lagrange interpolation, splines. Integration: trapezoid, Romberg, Gauss, adaptive quadrature; numerical solution of ordinary differential equations: explicit and implicit methods, multistep methods, Runge-Kutta and predictor-corrector methods, boundary value problems, eigenvalue problems; systems of differential equations, stiffness. Emphasis is on analysis of numerical methods for accuracy, stability, and convergence. Introduction to numerical solutions of partial differential equations; Von Neumann stability analysis; alternating direction implicit methods and nonlinear equations. 
+
+- title: Other Experience
+  type: time_table
+  contents:
+    - |
+      Programming skills: Python, c++, MATLAB, MPI, CUDA
+    - |
+      Selected coursework: Numerical Methods for Compressible Flows, Flow Instability, High Performance Computing, Asymptotic Methods in Computational Engineering, Deep Learning, Machine Learning
+
 - title: Service
   type: time_table
   contents:
