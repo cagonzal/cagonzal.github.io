@@ -74,7 +74,7 @@
       description: Numerical methods from a user's point of view. Lagrange interpolation, splines. Integration: trapezoid, Romberg, Gauss, adaptive quadrature; numerical solution of ordinary differential equations: explicit and implicit methods, multistep methods, Runge-Kutta and predictor-corrector methods, boundary value problems, eigenvalue problems; systems of differential equations, stiffness. Emphasis is on analysis of numerical methods for accuracy, stability, and convergence. Introduction to numerical solutions of partial differential equations; Von Neumann stability analysis; alternating direction implicit methods and nonlinear equations. 
 
 - title: Other Experience
-  type: time_table
+  type: list
   contents:
     - |
       Programming skills: Python, c++, MATLAB, MPI, CUDA
