@@ -7,7 +7,7 @@ importance: 4
 category: Classes
 ---
 
-This project was done in collaboration with my classmate, [Kimberly Liu](kimbliu.github.io). Our project was based upon the work in <em>[Conjugate heat transfer in a channel with staggered ribs](https://www.sciencedirect.com/science/article/pii/0017931085901425)</em>. We studied the effects of conductive walls for laminar flow through a ribbed channel. This problem is relevant to many applications, such as the thermal management and cooling of electronics and machinery. Simulations were performed using [Nalu](https://nalu.readthedocs.io/en/latest/), a generalized, unstructured, massively parallel, low-Mach flow solver built and managed by Sandia Labs.
+This project was done in collaboration with my classmate, [Kimberly Liu](https://kimbliu.github.io/). Our project was based upon the work in <em>[Conjugate heat transfer in a channel with staggered ribs](https://www.sciencedirect.com/science/article/pii/0017931085901425)</em>. We studied the effects of conductive walls for laminar flow through a ribbed channel. This problem is relevant to many applications, such as the thermal management and cooling of electronics and machinery. Simulations were performed using [Nalu](https://nalu.readthedocs.io/en/latest/), a generalized, unstructured, massively parallel, low-Mach flow solver built and managed by Sandia Labs.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

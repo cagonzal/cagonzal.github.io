@@ -7,7 +7,7 @@ importance: 3
 category: Classes
 ---
 
-This project was done in a collaboration with my classmate, [Kimberly Liu](kimbliu.github.io). The goal of this project was to use the Tensor Basis Neural Network (TBNN)<sup>[1]</sup> to predict the Reynolds stress tensor in canonical flow configurations. We tested our model on turbulent channel and turbulent Couette flow using data from the UT Austin Oden Institute. Pictured below is a comparison between the DNS and TBNN values of the b<sub>12</sub> component of the Reynolds anisotropy tensor as a function of wall-normal height for channel flow at $$Re_{\tau} = 550$$. 
+This project was done in a collaboration with my classmate, [Kimberly Liu](https://kimbliu.github.io/). The goal of this project was to use the Tensor Basis Neural Network (TBNN)<sup>[1]</sup> to predict the Reynolds stress tensor in canonical flow configurations. We tested our model on turbulent channel and turbulent Couette flow using data from the UT Austin Oden Institute. Pictured below is a comparison between the DNS and TBNN values of the b<sub>12</sub> component of the Reynolds anisotropy tensor as a function of wall-normal height for channel flow at $$Re_{\tau} = 550$$. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
