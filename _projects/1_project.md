@@ -13,60 +13,40 @@ The compressible Navier-Stokes equations are solved using a second order MacCorm
 
 1. Predictor Step:
     \begin{equation}
-    \overline{U}_{i,j,k}^{t + \Delta t} = U_{i,j,k}^t 
-    - \frac{\Delta t}{\Delta x} \left( E_{i+1,j,k}^t - E_{i,j,k}^t \right)
-    - \frac{\Delta t}{\Delta y} \left( F_{i,j+1,k}^t - F_{i,j,k}^t \right)
-    - \frac{\Delta t}{\Delta z} \left( G_{i,j,k+1}^t - G_{i,j,k}^t \right)
+        \overline{U}_{i,j,k}^{t + \Delta t} = U_{i,j,k}^t 
+        - \frac{\Delta t}{\Delta x} \left( E_{i+1,j,k}^t - E_{i,j,k}^t \right)
+        - \frac{\Delta t}{\Delta y} \left( F_{i,j+1,k}^t - F_{i,j,k}^t \right)
+        - \frac{\Delta t}{\Delta z} \left( G_{i,j,k+1}^t - G_{i,j,k}^t \right)
     \end{equation}
 
 2. Corrector Step:
     \begin{equation}
-    U_{i,j,k}^{t + \Delta t} = \frac{1}{2} \left[ U_{i,j,k}^t + \overline{U}_{i,j,k}^{t + \Delta t}
-    - \frac{\Delta t}{\Delta x} \left( \overline{E}_{i,j,k}^{t + \Delta t} - \overline{E}_{i-1,j,k}^{t + \Delta t} \right) - \frac{\Delta t}{\Delta y} \left( \overline{F}_{i,j,k}^{t + \Delta t} - \overline{F}_{i,j-1,k}^{t + \Delta t} \right) - \frac{\Delta t}{\Delta z} \left( \overline{G}_{i,j,k}^{t + \Delta t} - \overline{G}_{i,j,k-1}^{t + \Delta t} \right) \right]
+        U_{i,j,k}^{t + \Delta t} = \frac{1}{2} \left(U_{i,j,k}^t + \overline{U}_{i,j,k}^{t + \Delta t} - \frac{\Delta t}{\Delta x} \left( \overline{E}_{i,j,k}^{t + \Delta t} - \overline{E}_{i-1,j,k}^{t + \Delta t} \right) - \frac{\Delta t}{\Delta y} \left( \overline{F}_{i,j,k}^{t + \Delta t} - \overline{F}_{i,j-1,k}^{t + \Delta t} \right) - \frac{\Delta t}{\Delta z} \left( \overline{G}_{i,j,k}^{t + \Delta t} - \overline{G}_{i,j,k-1}^{t + \Delta t} \right) \right)
     \end{equation}
 
 where 
 
 \begin{equation}
 U = \begin{bmatrix}
-\rho \\
-\rho u \\
-\rho v \\
-\rho w \\
-E_t \\
-\rho \phi
+\rho, \, \rho u, \, \rho v, \, \rho w, \, E_t, \, \rho \phi
 \end{bmatrix}
 \end{equation}
 
 \begin{equation}
 E = \begin{bmatrix}
-\rho u^2 + p - \tau_{xx} \
-\rho uv - \tau_{xy} \
-\rho uw - \tau_{xz} \
-(E_t + p)u - u\tau_{xx} - v\tau_{xy} - w\tau_{xz} + q_x \
-\rho \phi - D\frac{\partial \phi}{\partial x}
+\rho u^2 + p - \tau_{xx}, \, \rho uv - \tau_{xy}, \, \rho uw - \tau_{xz}, \, (E_t + p)u - u\tau_{xx} - v\tau_{xy} - w\tau_{xz} + q_x, \, \rho \phi - D\frac{\partial \phi}{\partial x}
 \end{bmatrix}
 \end{equation}
 
 \begin{equation}
 \mathbf{F} = \begin{bmatrix}
-\rho v \
-\rho uv - \tau_{xy} \
-\rho v^2 + p - \tau_{yy} \
-\rho vw - \tau_{yz} \
-(E_t + p)v - u\tau_{xy} - v\tau_{yy} - w\tau_{yz} + q_y \
-\rho \phi - D\frac{\partial \phi}{\partial y}
+\rho v, \, \rho uv - \tau_{xy}, \, \rho v^2 + p - \tau_{yy}, \, \rho vw - \tau_{yz}, \, (E_t + p)v - u\tau_{xy} - v\tau_{yy} - w\tau_{yz} + q_y, \, \rho \phi - D\frac{\partial \phi}{\partial y}
 \end{bmatrix}
 \end{equation}
 
 \begin{equation}
 \mathbf{G} = \begin{bmatrix}
-\rho w \
-\rho uw - \tau_{xz} \
-\rho vw - \tau_{yz} \
-\rho w^2 - \tau_{zz} \
-(E_t + p)w - u\tau_{xz} - v\tau_{yz} - w\tau_{zz} + q_z \
-\rho \phi - D\frac{\partial \phi}{\partial z}
+\rho w, \, \rho uw - \tau_{xz}, \, \rho vw - \tau_{yz}, \, \rho w^2 - \tau_{zz}, \, (E_t + p)w - u\tau_{xz} - v\tau_{yz} - w\tau_{zz} + q_z, \, \rho \phi - D\frac{\partial \phi}{\partial z}
 \end{bmatrix}
 \end{equation}
 
