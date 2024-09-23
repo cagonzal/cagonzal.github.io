@@ -1,29 +1,18 @@
 ---
 layout: page
-title: 3D Compressible Navier-Stokes Solver for Jet Flows
-description: Project for ME344 (High Performance Computing)
-img: assets/img/comp_solver/phi_iso_39000.png
+title: Galiliean Invariance Preserving Deep Learning for Canonical Fluid Flows
+description: Final Project for CS230 (Deep Learning)
+img: assets/img/deep_learning/tbnn1_linear_3.png
 importance: 3
-category: work
 ---
 
-This project was done in a collaboration with my classmate, Michael Whitmore. A 3D, compressible, finite difference code was written to solve the Navier-Stokes equations in Python. The motivation behind the project was to develop a solver that can simulate jet flows with an immersed passive tracer, a case that is representative of coughs and sneezes contaminated with COVID-19 viral droplets. The code was parallelized using mpi4py.
+This project was done in a collaboration with my classmate, Kimberly Liu. The goal of this project was to use the Tensor Basis Neural Network (TBNN)<sup>[1]</sup> to predict the Reynolds stress tensor in canonical flow configurations. We tested our model on turbulent channel and turbulent Couette flow using data from the UT Austin Oden Institute. Pictured below is a comparison between the DNS and TBNN values of the b<sub>12</sub> component of the Reynolds anisotropy tensor as a function of wall-normal height for channel flow at Re<sub>$\tau$</sub> = 550. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/comp_solver/u_snapshot_goodish_001.png" title="velocity snapshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/deep_learning/tbnn1_linear_3.png" title="tbnn result" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/comp_solver/strong_scaling.png" title="strong scaling" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/comp_solver/weak_scaling.png" title="weak scaling" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+[1]Ling, J., Kurzawski, A., & Templeton, J. (2016). Reynolds averaged turbulence modelling using deep neural networks with embedded invariance. Journal of Fluid Mechanics, 807, 155-166.
 
