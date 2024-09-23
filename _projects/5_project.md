@@ -7,9 +7,9 @@ importance: 1
 category: Fun
 ---
 
-I was interested in this project mostly because I had never implemented an incompressible flow solver. Though there are fewer equations in the incomressible Navier-Stokes compared to the compressible equations, they can be more challenging to solve. The reason for this is because the incompressibility contraint requires you to solve a Poisson equation for the pressure. 
+I was interested in this project mostly because I had never implemented an incompressible flow solver. Though there are fewer equations in the incompressible Navier-Stokes compared to the compressible equations, they can be more challenging to solve. The reason for this is because the incompressibility contraint requires you to solve a Poisson equation for the pressure. This can be difficult in a parallel setting and requires some care for implementing boundary conditions. 
 
-In this solver, I've elected to use the fractional step method of Kim and Moin (1985). 
+In this solver, I've elected to use the fractional step method of [Kim and Moin (1985)](https://www.sciencedirect.com/science/article/pii/0021999185901482). 
 
 The incompressible Navier-Stokes equations are given as 
 
