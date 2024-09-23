@@ -28,11 +28,15 @@ Fall 2016 -  Winter 2017
 
 A project-based course in which teams of students are challenged to design, test, analyze, and fabricate a robotic device to compete against devices designed by other student teams. The class lectures and team projects stress the integration of mechanical design, electronics, mechatronics, engineering analysis, and computation to solve problems in engineering system design. Critical feedback is provided through a series of formal design reviews scheduled throughout the ME 72 ab course sequence. 
 
+<br/>
+
 #### <span style="color:var(--global-theme-color)"><b>Design and Fabrication</b></span>
 Teaching Assistant, California Institute of Technology  
 Spring 2016
 
 Introduction to mechanical engineering design, fabrication, and visual communicaition. This class features a design project in which students use a limited budget to demonstrate mastery with the machine shop tools and design concepts taught in the class. 
+
+<br/>
 
 #### <span style="color:var(--global-theme-color)"><b>Introduction to Machine Prototyping</b></span>
 Teaching Assistant, California Institute of Technology  
