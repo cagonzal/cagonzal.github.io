@@ -14,11 +14,23 @@ Direct numerical simulation (DNS) and wall-resolved large-eddy simulations (WRLE
 
 My research tackles this problem by using the Falkner-Skan similarity solution as a wall model that is applicable in the laminar portion of flows. Additionally, my research leverages the parabolized stability equations to act as a physics-based, but computationally inexpensive, method to model the transitional portion of wall-bounded flows. Below are contours of near-wall spanwise velocity for three transition scenarios considered in my research. All figures come from WRLES computed using the charLES flow solver. The top figure is an oblique transition, the middle figure is K-type transition, and the bottom figure is H-type transition. For a detailed discussion on oblique transition, refer to [Berlin *et al.*](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1ABE909F9852E87AAF88019579D86B86/S002211209900511Xa.pdf/numerical-and-experimental-investigations-of-oblique-boundary-layer-transition.pdf) For a discussion on H- and K-type transition, refer to [Sayadi *et al.*](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/direct-numerical-simulation-of-complete-htype-and-ktype-transitions-with-implications-for-the-dynamics-of-turbulent-boundary-layers/14A734E8A06691C4768538EE6C614E39)
 
-<br/><img src='/assets/img/research/oblique_u_contour.png' width="600" height="100">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/research/oblique_u_contour.png" title="oblique transition" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
-<br/><img src='/assets/img/research/ktype_extended_u_contour.png' width="600" height="100">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/research/ktype_extended_u_contour.png" title="ktype transition" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
-<br/><img src='/assets/img/research/htype_extended_u_contour.png' width="600" height="100">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/research/htype_extended_u_contour.png" title="htype transition" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 Reports
 ===
