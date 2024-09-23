@@ -26,13 +26,13 @@ The incompressible Navier-Stokes equations are given as
 
 The fractional step method breaks the velocity update into two stages. The idea is to compute an intermediate velocity field without enforcing incompressibility and then correct it using a pressure Poisson equation.
 
-A predictor step computes a provisional velocity field $\mathbf{u}^*$, ignoring the pressure gradient term:
+A predictor step computes a provisional velocity field $$\mathbf{u}^*$$, ignoring the pressure gradient term:
 
 \begin{equation}
 \frac{\mathbf{u}^* - \mathbf{u}^n}{\Delta t} = -\mathbf{u}^n \cdot \nabla \mathbf{u}^n + \nu \nabla^2 \mathbf{u}^n
 \end{equation}
 
-where \mathbf{u}^n is the velocity at the current time step and \mathbf{u}^* is the provisional velocity. This step evolves the velocity based on the nonlinear convective term and the viscous term.
+where $$\mathbf{u}^n$$ is the velocity at the current time step and $$\mathbf{u}^*$$ is the provisional velocity. This step evolves the velocity based on the nonlinear convective term and the viscous term.
 
 In the second step, the pressure term is used to adjust the provisional velocity to enforce the incompressibility condition. A pressure correction term is introduced:
 
@@ -48,6 +48,6 @@ The pressure on the RHS of the equation above can be found by taking the diverge
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/img/lid_driven_cavity/cavity_flow_speed_pressure_animation.gif" class="img-fluid rounded z-depth-1" autoplay=true %}
+        {% include figure.liquid loading="eager" path="assets/img/lid_driven_cavity/cavity_flow_speed_pressure_animation.gif" title="speed and pressure contours" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
