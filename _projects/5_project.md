@@ -46,6 +46,8 @@ The pressure on the RHS of the equation above can be found by taking the diverge
 \nabla^2 p^{n+1} = \frac{\rho}{\Delta t} \nabla \cdot \mathbf{u}^*
 \end{equation}
 
+The animation below shows velocity magnitude contours on the left and pressure contours on the right. The boundary conditions are $$U=1$$ on the top wall and no-slip on all other walls. The Reynolds number of this simulation is $$Re=5000$$
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/lid_driven_cavity/cavity_flow_speed_pressure_animation.gif" title="speed and pressure contours" class="img-fluid rounded z-depth-1" %}
