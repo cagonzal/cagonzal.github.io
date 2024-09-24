@@ -18,7 +18,7 @@ The compressible Navier-Stokes equations are solved using a second order MacCorm
 \end{equation}
 
 \begin{equation}
-    \overline{U}_{i,j,k}^{t+\Delta t} = U_{i,j,k}^t - \frac{\Delta t}{\Delta x}
+    \overline{U}_{i,j,k}^{t+\Delta t} = U_{i,j,k}^t 
 \end{equation}
 
 2. Corrector Step:
@@ -28,7 +28,7 @@ The compressible Navier-Stokes equations are solved using a second order MacCorm
 \end{equation}
 
 \begin{equation}
-    U_{i,j,k}^{t+\Delta t} = \frac{1}{2}\left(U_{i,j,k}^t + \overline{U}_{i,j,k}^{t+\Delta t}
+    U_{i,j,k}^{t+\Delta t} = \frac{1}{2}\left(U_{i,j,k}^t 
 \end{equation}
 
 where 
