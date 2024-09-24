@@ -53,13 +53,9 @@ A rectangular prism is used for the computational domain. Ambient pressure bound
 
 Shown below are iso-surface contours of $$\phi = {0.1, 0.33, 0.57}$$ at $$t = 0.88$$. We see that high concentration of the passive scalar persists well into the two meter domain, with significant mixing in the normal direction. The implications of this result are that the "six feet" rule is not effective to limit the spread of aerosols by flows from coughs or sneezes. 
 
-<div class="row">
-    <div class="col">
-    </div>
-    <div class="col">
+<div class="row justify-content-center">
+    <div class="col-md">
         {% include figure.liquid loading="eager" path="assets/img/comp_solver/phi_iso_39000.png" title="phi isocontour" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col">
     </div>
 </div>
 
