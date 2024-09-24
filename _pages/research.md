@@ -32,6 +32,8 @@ My research tackles this problem by using the Falkner-Skan similarity solution a
     </div>
 </div>
 
+<br/>
+
 Reports
 ===
 
@@ -46,6 +48,8 @@ the parabolized stability equations](http://web.stanford.edu/group/ctr/ResBriefs
 [Wall-stress modeling for laminar boundary layers
 in coarse grids](http://web.stanford.edu/group/ctr/ResBriefs/2020/10_Gonzalez.pdf)
 
+
+<br/>
 
 Presentations
 ===
