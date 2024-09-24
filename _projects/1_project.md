@@ -17,12 +17,11 @@ The compressible Navier-Stokes equations are solved using a second order MacCorm
     \overline{U}\_{i,j,k}^{t+\Delta t} = U\_{i,j,k}^t - \frac{\Delta t}{\Delta x} \left( E\_{i+1,j,k}^t - E\_{i,j,k}^t \right) - \frac{\Delta t}{\Delta y} \left( F\_{i,j+1,k}^t - F\_{i,j,k}^t \right) - \frac{\Delta t}{\Delta z} \left( G\_{i,j,k+1}^t - G\_{i,j,k}^t \right)
 \end{equation}
 
-
 2. Corrector Step:
 
 \begin{equation}
     U\_{i,j,k}^{t+\Delta t} = \frac{1}{2}\left(U\_{i,j,k}^t + \overline{U}\_{i,j,k}^{t+\Delta t} - \frac{\Delta t}{\Delta x} \left(\overline{E}\_{i,j,k}^{t+\Delta t} - \overline{E}\_{i-1,j,k}^{t+\Delta t}\right) - \frac{\Delta t}{\Delta y} \left(\overline{F}\_{i,j,k}^{t+\Delta t} - \overline{F}\_{i,j-1,k}^{t+\Delta t}\right) - \frac{\Delta t}{\Delta z} \left(\overline{G}\_{i,j,k}^{t+\Delta t} - \overline{G}\_{i,j,k-1}^{t+\Delta t}\right)\right)
-    \end{equation}
+\end{equation}
 
 where 
 
@@ -55,8 +54,12 @@ A rectangular prism is used for the computational domain. Ambient pressure bound
 Shown below are iso-surface contours of $$\phi = {0.1, 0.33, 0.57}$$ at $$t = 0.88$$. We see that high concentration of the passive scalar persists well into the two meter domain, with significant mixing in the normal direction. The implications of this result are that the "six feet" rule is not effective to limit the spread of aerosols by flows from coughs or sneezes. 
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col">
+    </div>
+    <div class="col">
         {% include figure.liquid loading="eager" path="assets/img/comp_solver/phi_iso_39000.png" title="phi isocontour" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col">
     </div>
 </div>
 
