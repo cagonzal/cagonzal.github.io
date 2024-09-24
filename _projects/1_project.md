@@ -12,14 +12,13 @@ This project was done in a collaboration with my classmate, Michael Whitmore. A 
 The compressible Navier-Stokes equations are solved using a second order MacCormack scheme. The scheme uses a two-step time integration that uses first-order forward differences at the first step and first-order backward differences at the second step. 
 
 1.  Predictor Step:
-        \begin{equation}
-            \overline{U}_{i,j,k}^{t+\Delta t} = U_{i,j,k}^t - \frac{\Delta t}{\Delta x} \left( E_{i+1,j,k}^t - E_{i,j,k}^t \right) - \frac{\Delta t}{\Delta y} \left( F_{i,j+1,k}^t - F_{i,j,k}^t \right) - \frac{\Delta t}{\Delta z} \left( G_{i,j,k+1}^t - G_{i,j,k}^t \right)
-        \end{equation}
-
+    $$
+        \overline{U}_{i,j,k}^{t+\Delta t} = U_{i,j,k}^t - \frac{\Delta t}{\Delta x} \left( E_{i+1,j,k}^t - E_{i,j,k}^t \right) - \frac{\Delta t}{\Delta y} \left( F_{i,j+1,k}^t - F_{i,j,k}^t \right) - \frac{\Delta t}{\Delta z} \left( G_{i,j,k+1}^t - G_{i,j,k}^t \right)
+    $$
 2.  Corrector Step:
-        \begin{equation}
-            U_{i,j,k}^{t+\Delta t} = \frac{1}{2}\left(U_{i,j,k}^t + \overline{U}_{i,j,k}^{t+\Delta t} - \frac{\Delta t}{\Delta x} \left(\overline{E}_{i,j,k}^{t+\Delta t} - \overline{E}_{i-1,j,k}^{t+\Delta t}\right) - \frac{\Delta t}{\Delta y} \left(\overline{F}_{i,j,k}^{t+\Delta t} - \overline{F}_{i,j-1,k}^{t+\Delta t}\right) - \frac{\Delta t}{\Delta z} \left(\overline{G}_{i,j,k}^{t+\Delta t} - \overline{G}_{i,j,k-1}^{t+\Delta t}\right)\right)
-        \end{equation}
+    $$
+        U_{i,j,k}^{t+\Delta t} = \frac{1}{2}\left(U_{i,j,k}^t + \overline{U}_{i,j,k}^{t+\Delta t} - \frac{\Delta t}{\Delta x} \left(\overline{E}_{i,j,k}^{t+\Delta t} - \overline{E}_{i-1,j,k}^{t+\Delta t}\right) - \frac{\Delta t}{\Delta y} \left(\overline{F}_{i,j,k}^{t+\Delta t} - \overline{F}_{i,j-1,k}^{t+\Delta t}\right) - \frac{\Delta t}{\Delta z} \left(\overline{G}_{i,j,k}^{t+\Delta t} - \overline{G}_{i,j,k-1}^{t+\Delta t}\right)\right)
+    $$
 
 where 
 
@@ -36,13 +35,13 @@ E = \begin{bmatrix}
 \end{equation}
 
 \begin{equation}
-\mathbf{F} = \begin{bmatrix}
+F = \begin{bmatrix}
 \rho v, \, \rho uv - \tau_{xy}, \, \rho v^2 + p - \tau_{yy}, \, \rho vw - \tau_{yz}, \, (E_t + p)v - u\tau_{xy} - v\tau_{yy} - w\tau_{yz} + q_y, \, \rho \phi - D\frac{\partial \phi}{\partial y}
 \end{bmatrix}
 \end{equation}
 
 \begin{equation}
-\mathbf{G} = \begin{bmatrix}
+G = \begin{bmatrix}
 \rho w, \, \rho uw - \tau_{xz}, \, \rho vw - \tau_{yz}, \, \rho w^2 - \tau_{zz}, \, (E_t + p)w - u\tau_{xz} - v\tau_{yz} - w\tau_{zz} + q_z, \, \rho \phi - D\frac{\partial \phi}{\partial z}
 \end{bmatrix}
 \end{equation}
