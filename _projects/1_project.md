@@ -13,15 +13,15 @@ The compressible Navier-Stokes equations are solved using a second order MacCorm
 
 Predictor Step:
 
-    \begin{equation}
-        \overline{U}_{i,j,k}^{t+\Delta t} = U_{i,j,k}^t - \frac{\Delta t}{\Delta x} \left( E_{i+1,j,k}^t - E_{i,j,k}^t \right) - \frac{\Delta t}{\Delta y} \left( F_{i,j+1,k}^t - F_{i,j,k}^t \right) - \frac{\Delta t}{\Delta z} \left( G_{i,j,k+1}^t - G_{i,j,k}^t \right)
-    \end{equation}
+\begin{equation}
+    \overline{U}_{i,j,k}^{t+\Delta t} = U_{i,j,k}^t - \frac{\Delta t}{\Delta x} \left( E_{i+1,j,k}^t - E_{i,j,k}^t \right) - \frac{\Delta t}{\Delta y} \left( F_{i,j+1,k}^t - F_{i,j,k}^t \right) - \frac{\Delta t}{\Delta z} \left( G_{i,j,k+1}^t - G_{i,j,k}^t \right)
+\end{equation}
 
-Corrector Step:
+Corrector Step
 
-    \begin{equation}
-        U_{i,j,k}^{t+\Delta t} = \frac{1}{2}\left(U_{i,j,k}^t + \overline{U}_{i,j,k}^{t+\Delta t} - \frac{\Delta t}{\Delta x} \left(\overline{E}_{i,j,k}^{t+\Delta t} - \overline{E}_{i-1,j,k}^{t+\Delta t}\right) - \frac{\Delta t}{\Delta y} \left(\overline{F}_{i,j,k}^{t+\Delta t} - \overline{F}_{i,j-1,k}^{t+\Delta t}\right) - \frac{\Delta t}{\Delta z} \left(\overline{G}_{i,j,k}^{t+\Delta t} - \overline{G}_{i,j,k-1}^{t+\Delta t}\right)\right)
-    \end{equation}
+\begin{equation}
+    U_{i,j,k}^{t+\Delta t} = \frac{1}{2}\left(U_{i,j,k}^t + \overline{U}_{i,j,k}^{t+\Delta t} - \frac{\Delta t}{\Delta x} \left(\overline{E}_{i,j,k}^{t+\Delta t} - \overline{E}_{i-1,j,k}^{t+\Delta t}\right) - \frac{\Delta t}{\Delta y} \left(\overline{F}_{i,j,k}^{t+\Delta t} - \overline{F}_{i,j-1,k}^{t+\Delta t}\right) - \frac{\Delta t}{\Delta z} \left(\overline{G}_{i,j,k}^{t+\Delta t} - \overline{G}_{i,j,k-1}^{t+\Delta t}\right)\right)
+\end{equation}
 
 where 
 
