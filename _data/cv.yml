@@ -15,7 +15,7 @@
   contents:
     - title: Ph.D. Mechanical Engineering
       institution: Stanford University
-      year: 2020 - Present
+      year: 2020 - 2025
       # description:
         # - Description 1.
         # - Description 2.
@@ -56,6 +56,10 @@
 - title: Publications
   type: list
   contents:
+    - Wu, X., Gonzalez, C.A., & Agrawal, R. (2025). "Direct numerical simulation benchmarks for the prediction of boundary-layer bypass transition in the narrow sense," Physical Review Fluids.  
+    - Gonzalez, C.A., Agrawal, R., & Wu, X. (2025). "Correlation for transitional Reynolds number and assessment of RANS for bypass transition," Journal of Fluids Engineering.
+    - Gonzalez, C.A., Harris, S.R., & Moin, P. (2025). "The PSE-sponge method for simulating natural transition in WMLES," Center for Turbulence Research, Annual Research Briefs, 2025.
+    - Gonzalez, C.A., Harris, S.R., & Moin, P. (2024). "glimPSE an open-source incompressible nonlinear parabolized stability equation solver," Center for Turbulence Research, Annual Research Briefs, 2024.
     - Gonzalez, C.A., Harris, S.R., & Moin, P. (2023). “Simulating an H-type transitional boundary layer in a coupled NLPSE and WMLES framework with a Falkner-Skan wall model,” Center for Turbulence Research, Annual Research Briefs, 2023.
     - De Broeck, L., Gortz, S., Flint, T., Gonzalez, C.A., Lele, S.K., & Oberlack, M. (2022). “Suppression of acoustic instabilities in boundary layer flows,” Center for Turbulence Research, Proceedings of the Summer Program, 2022.
     - Gonzalez, C.A., Harris, S.R., & Moin, P. (2021). “Falkner-Skan wall model baseflow generation for the parabolized stability equations,” Center for Turbulence Research, Annual Research Briefs, 2021.
