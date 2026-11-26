@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Lid Driven Cavity Solver
-description: Incompressible Fractional Step Method 
+description: Incompressible fractional step method
 img: assets/img/lid_driven_cavity/Re5000_lid_snapshot.png
 importance: 1
-category: Fun
+category: Personal
 ---
 
 I was interested in this project mostly because I had never implemented an incompressible flow solver. Though there are fewer equations in the incompressible Navier-Stokes compared to the compressible equations, they can be more challenging to solve. The reason for this is because the incompressibility contraint requires you to solve a Poisson equation for the pressure. This can be difficult in a parallel setting and requires some care for implementing boundary conditions. 

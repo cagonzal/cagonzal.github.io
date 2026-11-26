@@ -1,10 +1,10 @@
 ---
 layout: page
 title: 3D Compressible Navier-Stokes Solver for Jet Flows
-description: Project for ME344 (High Performance Computing)
+description: Stanford ME344 · High performance computing
 img: assets/img/comp_solver/phi_iso_39000.png
 importance: 1
-category: Classes
+category: Coursework
 ---
 
 This project was done in a collaboration with my classmate, Michael Whitmore. A 3D, compressible, finite difference code was written to solve the Navier-Stokes equations in Python. The motivation behind the project was to develop a solver that can simulate jet flows with an immersed passive tracer, a case that is representative of coughs and sneezes contaminated with COVID-19 viral droplets. The code was parallelized using mpi4py. 

@@ -11,6 +11,15 @@ $blue-color: #0076df !default;
 $blue-color-dark: #00369f !default;
 $cyan-color: #2698ba !default;
 $vaporwave-cyan-color: #64CACE !default;
+
+// Miami Vice / vaporwave palette
+$vice-blue: #0a8fb8 !default; // link/text-safe blue for light backgrounds
+$vice-blue-bright: #4fd8ff !default; // neon blue for dark backgrounds + accents
+$vice-pink: #d93d8c !default; // hover pink for light backgrounds
+$vice-pink-bright: #ff71ce !default; // neon pink for dark backgrounds + accents
+$vice-night: #17142b !default; // dark-mode background
+$vice-night-card: #211c3b !default;
+$vice-night-divider: #3a335e !default;
 $light-cyan-color: lighten($cyan-color, 25%);
 $green-color: #00ab37 !default;
 $green-color-lime: #b7d12a !default;

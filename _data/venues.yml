@@ -1,9 +1,15 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"PRF":
+  url: https://journals.aps.org/prfluids/
+  color: "#1aa6c9"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"JFE":
+  url: https://asmedigitalcollection.asme.org/fluidsengineering
+  color: "#7b5cd6"
 
-"Vision":
-  color: "#009f36"
+"JCP":
+  url: https://www.sciencedirect.com/journal/journal-of-computational-physics
+  color: "#e0559a"
+
+"CTR":
+  url: https://ctr.stanford.edu/
+  color: "#3a7fa8"

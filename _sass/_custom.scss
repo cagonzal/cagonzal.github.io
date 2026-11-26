@@ -1,0 +1,145 @@
+/*******************************************************************************
+ * Site-specific overrides: typography, homepage hero, and accent styling.
+ ******************************************************************************/
+
+$body-font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$heading-font: "Space Grotesk", $body-font;
+
+// Typography
+
+body,
+p,
+li,
+td,
+th,
+.card-text {
+  font-family: $body-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.card-title,
+.navbar-brand,
+.navbar-nav .nav-link {
+  font-family: $heading-font;
+  letter-spacing: -0.01em;
+}
+
+// Thin neon rule under the fixed navbar
+
+.navbar {
+  border-bottom: none;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: var(--global-accent-gradient);
+  }
+}
+
+// Homepage header
+
+.post-header .tagline {
+  font-family: $heading-font;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 0.25rem;
+  color: var(--global-text-color-light);
+}
+
+.hero {
+  margin: 1.5rem 0 2rem;
+
+  img {
+    display: block;
+    width: 100%;
+    height: clamp(90px, 16vw, 160px);
+    object-fit: cover;
+    object-position: 60% 50%;
+    border-radius: 0.5rem;
+    box-shadow:
+      0 0 0 1px var(--global-divider-color),
+      0 12px 32px -16px var(--global-theme-color);
+  }
+
+  figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+  }
+}
+
+// Section headings on the homepage get a short gradient underline
+
+.post article > h2 {
+  margin-top: 2.5rem;
+  text-transform: lowercase;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 3rem;
+    height: 3px;
+    margin-top: 0.4rem;
+    border-radius: 2px;
+    background: var(--global-accent-gradient);
+  }
+}
+
+// Project cards: subtle lift and neon edge on hover
+
+.projects .card.hoverable {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 28px -14px var(--global-hover-color);
+  }
+
+  .card-img-top img,
+  img.card-img-top {
+    height: 160px;
+    object-fit: cover;
+  }
+}
+
+.selected-work {
+  margin-bottom: 1rem;
+}
+
+// Publication venue badges: white text on the colored chips
+
+.publications .badge a,
+.publications .badge div {
+  color: #fff;
+}
+
+// Project card titles: keep compact so cards don't balloon
+
+.projects .card .card-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+// Publication thumbnails stay inside their column
+
+.publications .preview {
+  width: 100%;
+  height: auto;
+  margin-top: 0.5rem;
+}

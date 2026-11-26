@@ -11,8 +11,17 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    <p class="desc tagline">{{ page.subtitle }}</p>
   </header>
+
+  {% if page.hero.image %}
+    <figure class="hero">
+      <img src="{{ page.hero.image | prepend: 'assets/img/' | relative_url }}" alt="{{ page.hero.caption }}" loading="eager">
+      {% if page.hero.caption %}
+        <figcaption>{{ page.hero.caption }}</figcaption>
+      {% endif %}
+    </figure>
+  {% endif %}
 
   <article>
     {% if page.profile %}
@@ -47,6 +56,21 @@ layout: default
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
+
+    <!-- Selected work -->
+    {% if page.selected_work %}
+      <h2>
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">selected work</a>
+      </h2>
+      {% assign selected_work = site.projects | where: 'category', page.selected_work | sort: 'importance' %}
+      <div class="projects selected-work">
+        <div class="row row-cols-1 row-cols-md-3">
+          {% for project in selected_work %}
+            {% include projects.liquid %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
