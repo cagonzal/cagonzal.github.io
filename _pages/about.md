@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a computational physics engineer on the Senior Professional Staff at the [Johns Hopkins University Applied Physics Laboratory](https://www.jhuapl.edu/), where I've worked since March 2026.
+I am senior professional staff working as a computational physics engineer at the [Johns Hopkins University Applied Physics Laboratory](https://www.jhuapl.edu/), where I have worked since March 2026.
 
 I received my Ph.D. in Mechanical Engineering from Stanford University in 2025. At the Center for Turbulence Research, advised by Professor Parviz Moin, I developed transition models for wall-modeled large-eddy simulation, using the parabolized stability equations as a physics-based approach to capturing modal transition on coarse grids. My expertise spans computational fluid dynamics, numerical methods, and high-performance computing.
 
