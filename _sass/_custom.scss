@@ -2,7 +2,15 @@
  * Site-specific overrides: typography, homepage hero, and accent styling.
  ******************************************************************************/
 
-$body-font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$body-font:
+  "Inter",
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  "Helvetica Neue",
+  Arial,
+  sans-serif;
 $heading-font: "Space Grotesk", $body-font;
 
 // Typography
