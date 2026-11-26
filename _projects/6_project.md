@@ -41,4 +41,4 @@ It was also shown that some existing RANS models for predicting boundary layer t
 </div>
 
 
-Published in Physical Review Fluids ([arXiv](https://arxiv.org/abs/2503.03844)) and Journal of Fluids Engineering ([arXiv](https://arxiv.org/abs/2502.19609)).
+Published in [Physical Review Fluids](https://doi.org/10.1103/g72g-q82r) ([arXiv](https://arxiv.org/abs/2503.03844)) and the [Journal of Fluids Engineering](https://doi.org/10.1115/1.4070700) ([arXiv](https://arxiv.org/abs/2502.19609)).

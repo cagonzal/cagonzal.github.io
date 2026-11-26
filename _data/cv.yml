@@ -6,7 +6,7 @@
     # - name: Date of Birth
       # value: 14th March 1879
     - name: email
-      value: cagonzal [at] stanford.edu
+      value: carlos.gonzalez [at] jhuapl.edu
     - name: Languages
       value: English, Spanish
 
@@ -61,9 +61,9 @@
 - title: Publications
   type: list
   contents:
-    - Wu, X., Gonzalez, C.A., & Agrawal, R. (2026). "Direct numerical simulation benchmarks for the prediction of boundary-layer bypass transition in the narrow sense," Physical Review Fluids 11(1), 014605.
-    - Gonzalez, C.A., Agrawal, R., & Wu, X. (2026). "Correlation for transitional Reynolds number and assessment of RANS for bypass transition," Journal of Fluids Engineering 148(4), 041301.
-    - Gonzalez, C.A., Harris, S.R., & Moin, P. "The PSE–sponge method: An approach for simulating natural transition in wall-modeled large-eddy simulations," Journal of Computational Physics, 115281.
+    - Wu, X., Gonzalez, C.A., & Agrawal, R. (2026). "Direct numerical simulation benchmarks for the prediction of boundary-layer bypass transition in the narrow sense," Physical Review Fluids 11(1), 014605. https://doi.org/10.1103/g72g-q82r
+    - Gonzalez, C.A., Agrawal, R., & Wu, X. (2026). "Correlation for transitional Reynolds number and assessment of RANS for bypass transition," Journal of Fluids Engineering 148(4), 041301. https://doi.org/10.1115/1.4070700
+    - Gonzalez, C.A., Harris, S.R., & Moin, P. (2026). "The PSE–sponge method: An approach for simulating natural transition in wall-modeled large-eddy simulations," Journal of Computational Physics 566, 115281. https://doi.org/10.1016/j.jcp.2026.115281
     - Gonzalez, C.A., Harris, S.R., & Moin, P. (2025). "The PSE-sponge method for simulating natural transition in WMLES," Center for Turbulence Research, Annual Research Briefs, 2025.
     - Gonzalez, C.A., Harris, S.R., & Moin, P. (2024). "glimPSE an open-source incompressible nonlinear parabolized stability equation solver," Center for Turbulence Research, Annual Research Briefs, 2024.
     - Gonzalez, C.A., Harris, S.R., & Moin, P. (2023). “Simulating an H-type transitional boundary layer in a coupled NLPSE and WMLES framework with a Falkner-Skan wall model,” Center for Turbulence Research, Annual Research Briefs, 2023.
