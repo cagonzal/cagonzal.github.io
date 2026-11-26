@@ -5,8 +5,6 @@
       value: Carlos A. Gonzalez
     # - name: Date of Birth
       # value: 14th March 1879
-    - name: email
-      value: carlos.gonzalez [at] jhuapl.edu
     - name: Languages
       value: English, Spanish
 
