@@ -28,7 +28,7 @@
       year: 2018 - 2020
       # description:
     - title: B.S. Mechanical Engineering
-      institution: California Institute of Technology 
+      institution: California Institute of Technology
       year: 2013 - 2017
 
 - title: Experience
@@ -61,7 +61,7 @@
   contents:
     - Wu, X., Gonzalez, C.A., & Agrawal, R. (2026). "Direct numerical simulation benchmarks for the prediction of boundary-layer bypass transition in the narrow sense," Physical Review Fluids 11(1), 014605. https://doi.org/10.1103/g72g-q82r
     - Gonzalez, C.A., Agrawal, R., & Wu, X. (2026). "Correlation for transitional Reynolds number and assessment of RANS for bypass transition," Journal of Fluids Engineering 148(4), 041301. https://doi.org/10.1115/1.4070700
-    - Gonzalez, C.A., Harris, S.R., & Moin, P. (2026). "The PSE–sponge method: An approach for simulating natural transition in wall-modeled large-eddy simulations," Journal of Computational Physics 566, 115281. https://doi.org/10.1016/j.jcp.2026.115281
+    - Gonzalez, C.A., Harris, S.R., & Moin, P. (2026). "The PSE–sponge method\: An approach for simulating natural transition in wall-modeled large-eddy simulations," Journal of Computational Physics 566, 115281. https://doi.org/10.1016/j.jcp.2026.115281
     - Gonzalez, C.A., Harris, S.R., & Moin, P. (2025). "The PSE-sponge method for simulating natural transition in WMLES," Center for Turbulence Research, Annual Research Briefs, 2025.
     - Gonzalez, C.A., Harris, S.R., & Moin, P. (2024). "glimPSE an open-source incompressible nonlinear parabolized stability equation solver," Center for Turbulence Research, Annual Research Briefs, 2024.
     - Gonzalez, C.A., Harris, S.R., & Moin, P. (2023). “Simulating an H-type transitional boundary layer in a coupled NLPSE and WMLES framework with a Falkner-Skan wall model,” Center for Turbulence Research, Annual Research Briefs, 2023.
@@ -75,13 +75,13 @@
     - title: Linear Algebra with Application to Engineering Computation
       institution: Stanford University
       year: Fall 2021, Fall 2022
-      description: 
+      description:
         - Computer based solution of systems of algebraic equations obtained from engineering problems and eigen-system analysis, Gaussian elimination, effect of round-off error, operation counts, banded matrices arising from discretization of differential equations, ill-conditioned matrices, matrix theory, least square solution of unsolvable systems, solution of non-linear algebraic equations, eigenvalues and eigenvectors, similar matrices, unitary and Hermitian matrices, positive definiteness, Cayley-Hamilton theory and function of a matrix and iterative methods.
     - title: Introduction to Numerical Methods for Engineering
       institution: Stanford University
       year: Spring 2021
-      description: 
-        - Numerical methods from a user's point of view. Lagrange interpolation, splines. Integration; trapezoid, Romberg, Gauss, adaptive quadrature; numerical solution of ordinary differential equations; explicit and implicit methods, multistep methods, Runge-Kutta and predictor-corrector methods, boundary value problems, eigenvalue problems; systems of differential equations, stiffness. Emphasis is on analysis of numerical methods for accuracy, stability, and convergence. Introduction to numerical solutions of partial differential equations; Von Neumann stability analysis; alternating direction implicit methods and nonlinear equations. 
+      description:
+        - Numerical methods from a user's point of view. Lagrange interpolation, splines. Integration; trapezoid, Romberg, Gauss, adaptive quadrature; numerical solution of ordinary differential equations; explicit and implicit methods, multistep methods, Runge-Kutta and predictor-corrector methods, boundary value problems, eigenvalue problems; systems of differential equations, stiffness. Emphasis is on analysis of numerical methods for accuracy, stability, and convergence. Introduction to numerical solutions of partial differential equations; Von Neumann stability analysis; alternating direction implicit methods and nonlinear equations.
 
     - title: Engineering Design Laboratory (ME 72)
       institution: California Institute of Technology
@@ -112,13 +112,13 @@
   contents:
     - title: SeeME
       year: 2018-2024
-      description: 
-        - Treasurer 
-        - Official Stanford Mechanical Engineering Department outreach club 
+      description:
+        - Treasurer
+        - Official Stanford Mechanical Engineering Department outreach club
         - The objective of SeeME is to bring mechanical engineering outreach to underserved communities in the Bay Area.
         - https://seeme.stanford.edu/
     - title: El Centro Chicano y Latino
       year: 2018 - 2020
       description:
         - Served as a mentor to first year undergraduate Hispanic students
-    
+
